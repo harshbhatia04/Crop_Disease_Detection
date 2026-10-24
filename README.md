@@ -121,7 +121,3 @@ The training scripts expect an ImageFolder-style dataset with `train/` and `val/
 - `app.py` includes an optional Gemini label override that can replace the model's predicted label and displayed confidence. Do not treat that displayed value as a calibrated model probability.
 - The Grad-CAM image is written to a shared path in `static/`; concurrent requests can overwrite it.
 - A machine-specific test-image path in `app.py` is skipped when that directory does not exist.
-
-## Contributors
-
-See the repository's [commit history](https://github.com/harshbhatia04/Crop_Disease_Detection/commits/main) for contributions.
